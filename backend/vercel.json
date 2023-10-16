@@ -1,5 +1,6 @@
 {
     "version":2,
+    //versel configaration file
     "builds": [
       { "src": "*.js", "use": "@vercel/node" }
     ],
