@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = 'https://mern-blog-server-nine.vercel.app/';
+const URL = 'https://mern-blog-server-nine.vercel.app';
 export const signUp = async (userData) => {
     try {
         return await axios.post(`${URL}/signup`, userData)
