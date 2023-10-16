@@ -5,7 +5,13 @@ const connection =require("./database/connection");
 connection();
 
 const cors =require("cors");
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://shahid-mern-blog.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 
 const bodyparser=require("body-parser");
 app.use(bodyparser.json({extended:true}));
