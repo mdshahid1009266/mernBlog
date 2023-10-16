@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = 'http://localhost:2000';
+const URL = 'https://mern-blog-server-ad3rvse73-shahids-projects-29577fef.vercel.app/';
 export const signUp = async (userData) => {
     try {
         return await axios.post(`${URL}/signup`, userData)
