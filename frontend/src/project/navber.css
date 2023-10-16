@@ -1,0 +1,61 @@
+.link{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(6, 6, 56);
+    color: white;
+    display: flex;
+    justify-items: center;
+}
+.mainnav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.mainnav .frist h1 span{
+    color: red;
+}
+.mid ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.mid ul li{
+    margin-left: 5px;
+}
+.mid ul li a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    display: flex;
+    align-items: center;
+}
+.last input{
+    padding: 5px;
+}
+.last li{
+    margin-left: 10px;
+    list-style: none;
+}
+.last li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.last input:active,
+.last input:focus{
+    outline: none;
+}
+.last img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
